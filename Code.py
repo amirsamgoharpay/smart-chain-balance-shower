@@ -9,14 +9,7 @@ def bnbbalance(x):
     results = int(resjson["result"])/1E+18
     return f"you have : {str(results)} bnb on {add} wallet"
 
-  
-
-
-add = str(input("address : ")) 
-
-balance = bnbbalance(add)
-
-
+ 
 
 # you can use this code as module in python just use import filename
 # then you can use bnbbalance with this code 
